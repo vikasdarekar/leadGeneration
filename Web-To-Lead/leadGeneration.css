@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(35, 35, 35);
+    font-family: sans-serif; /* Set a default font family for the entire page */
+}
+
+div {
+    padding: 20px;
+    max-width: 100%; /* Ensure divs expand to the width of their container */
+    box-sizing: border-box; /* Include padding and borders in the element's total width */
+}
+
+#form1 {
+    margin: auto;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(245, 236, 224);
+    max-width: 80%; /* Adjust the maximum width to be more responsive */
+    box-sizing: border-box;
+}
+
+h1 {
+    font-family: sans-serif;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"], select {
+    font-size: medium;
+    width: 100%;
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+input[type="submit"], input[type="reset"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    font-size: medium;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    /* Adjust styles for screens with a maximum width of 768px (typical for phones and tablets) */
+    #form1 {
+        max-width: 100%;
+    }
+}
